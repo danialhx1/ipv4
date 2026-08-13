@@ -1,0 +1,24 @@
+internal IP
+
+
+190.23.91.203 host1
+190.23.91.205 vm1
+
+
+255.255.255.0 mask
+190.23.91.128 gateway
+
+dns servers
+
+14.141.0.77
+14.30.64.77
+
+local host berp
+127.0.0.1:8080
+https://burp 
+download ca cert
+ca cert import firefox
+
+
+nmap -T5 -p- --min-rate 5000 <IP>
+443/tcp open  https
